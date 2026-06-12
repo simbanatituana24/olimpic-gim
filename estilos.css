@@ -10,7 +10,6 @@
     --text-dark: black;
     --border-color: darkslategray;
     --success: limegreen;
-    /* Sombras y transiciones se mantienen igual por ser valores técnicos */
     --shadow-lg: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
     --transition: all 0.3s ease;
 }
@@ -84,7 +83,6 @@ header {
     background-color: var(--primary);
 }
 
-/* ---- CONTENIDO ---- */
 main {
     flex: 1;
     padding: 60px 0;
@@ -117,7 +115,6 @@ main {
     font-size: 16px;
 }
 
-/* ---- ELEMENTOS VISUALES REUTILIZABLES ---- */
 .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -151,7 +148,6 @@ main {
     font-size: 14px;
 }
 
-/* ---- TABLAS ---- */
 .table-wrapper {
     overflow-x: auto;
     background-color: var(--bg-card);
@@ -193,7 +189,6 @@ table td {
 .session-name { font-weight: 700; color: white; display: block; }
 .session-meta { font-size: 11px; color: var(--text-muted); display: block; }
 
-/* ---- PIE DE PÁGINA COMÚN ---- */
 footer {
     background-color: black;
     padding: 40px 0;
@@ -220,7 +215,6 @@ footer {
     .main-nav { flex-wrap: wrap; justify-content: center; }
 }
 
-/* ---- COMPONENTES EXTRA PARA PÁGINA DE INICIO ---- */
 
 .feature-box {
     background-color: black;
