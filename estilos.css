@@ -38,7 +38,6 @@ body {
     width: 100%;
 }
 
-/* ---- ENCABEZADO COMÚN ---- */
 header {
     background-color: black;
     border-bottom: 2px solid var(--primary);
