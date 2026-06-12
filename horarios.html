@@ -3,128 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olimpic Gim</title>
+    <title>Olimpic Gim - Horarios</title>
     <link rel="stylesheet" href="estilos.css">
-
-
 </head>
 <body>
     
     <header>
-        <div class="container nav-wrapper">
-            <div class="brand-logo">OLIMPIC<span>GIM</span></div>
-            <ul class="main-nav">
-                <li><a href="index.html" >Inicio</a></li>
-<li><a href="instalaciones.html" >Instalaciones</a></li>
-<li><a href="programas.html" >Programas</a></li>
-<li><a href="salud.html" >Salud y Nutrición</a></li>
-<li><a href="horarios.html" class="active">Horarios</a></li>
-<li><a href="planes.html" >Planes</a></li>
-
-            </ul>
+        <div class="container">
+            <h1>Olimpic Gim</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="instalaciones.html">Instalaciones</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="salud.html">Salud y Nutrición</a></li>
+                    <li><a href="horarios.html" class="active">Horarios</a></li>
+                    <li><a href="planes.html">Planes</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    
+
     <main>
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">04 // CALENDARIO OFICIAL</span>
-                <h2 class="section-title">Horarios de Clases Dirigidas</h2>
-                <p class="section-desc">Planifica tus sesiones y asegura tu plaza desde la app móvil con nuestros entrenadores asignados.</p>
-            </div>
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Hora</th>
-                            <th>Lunes</th>
-                            <th>Martes</th>
-                            <th>Miércoles</th>
-                            <th>Jueves</th>
-                            <th>Viernes</th>
-                            <th>Sábado</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>07:30</strong></td>
-                            <td>
-                                <div class="session-block">
-                                    <span class="session-name">Olimpic WOD</span>
-                                    <span class="session-meta">Coach: Carlos Simbaña</span>
-                                </div>
-                            </td>
-                            <td>-- Libre --</td>
-                            <td>
-                                <div class="session-block">
-                                    <span class="session-name">Olimpic WOD</span>
-                                    <span class="session-meta">Coach: Carlos Simbaña</span>
-                                </div>
-                            </td>
-                            <td>-- Libre --</td>
-                            <td>
-                                <div class="session-block">
-                                    <span class="session-name">Olimpic WOD</span>
-                                    <span class="session-meta">Coach: Carlos Simbaña</span>
-                                </div>
-                            </td>
-                            <td>-- Cerrado --</td>
-                        </tr>
-                        <tr>
-                            <td><strong>09:30</strong></td>
-                            <td>
-                                <div class="session-block hiit">
-                                    <span class="session-name">HIIT Boxing</span>
-                                    <span class="session-meta">Coach: José Luis Salgado</span>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="session-block yoga">
-                                    <span class="session-name">Power Yoga</span>
-                                    <span class="session-meta">Coach: Jeremy López</span>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="session-block hiit">
-                                    <span class="session-name">HIIT Boxing</span>
-                                    <span class="session-meta">Coach: José Luis Salgado</span>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="session-block yoga">
-                                    <span class="session-name">Power Yoga</span>
-                                    <span class="session-meta">Coach: Jeremy López</span>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="session-block hiit">
-                                    <span class="session-name">HIIT Boxing</span>
-                                    <span class="session-meta">Coach: José Luis Salgado</span>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="session-block">
-                                    <span class="session-name">Super Saturday WOD</span>
-                                    <span class="session-meta">Especial Global</span>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+        <section>
+            <h2>Horarios de Clases Dirigidas</h2>
+            <p>Consulta los horarios y reserva tu plaza.</p>
+        </section>
+
+        <section>
+            <h3>Horario semanal</h3>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>07:30</strong></td>
+                        <td>Olimpic WOD (Carlos)</td>
+                        <td>-- Libre --</td>
+                        <td>Olimpic WOD (Carlos)</td>
+                        <td>-- Libre --</td>
+                        <td>Olimpic WOD (Carlos)</td>
+                        <td>-- Cerrado --</td>
+                    </tr>
+                    <tr>
+                        <td><strong>09:30</strong></td>
+                        <td>HIIT Boxing (José Luis)</td>
+                        <td>Power Yoga (Jeremy)</td>
+                        <td>HIIT Boxing (José Luis)</td>
+                        <td>Power Yoga (Jeremy)</td>
+                        <td>HIIT Boxing (José Luis)</td>
+                        <td>Super Saturday WOD</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
-    
+
     <footer>
-        <div class="container footer-wrapper">
-            <div class="footer-info">
-                <p><strong>OLIMPIC GYM S.A.</strong> // Av. De la Competencia Profesional, Nº 105, Zaragoza</p>
-                <p style="font-size: 12px; margin-top: 5px; color: #555;">Horario: L-V: 06:00 - 23:00 | S: 08:00 - 20:00 | D: 09:00 - 14:00</p>
-            </div>
-            <div class="footer-copy">
-                <p style="font-size: 13px; color: var(--text-muted);">&copy; 2026 Olimpic Gym. Todos los derechos reservados.</p>
-            </div>
-        </div>
+        <p><strong>OLIMPIC GYM S.A.</strong> - Av. De la Competencia Profesional, Nº 105, Zaragoza</p>
+        <p>© 2026 Olimpic Gym. Todos los derechos reservados.</p>
     </footer>
 
 </body>
