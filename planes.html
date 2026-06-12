@@ -9,41 +9,57 @@
 <body>
     
     <header>
-        <div class="container">
-            <h1>Olimpic Gim</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="instalaciones.html">Instalaciones</a></li>
-                    <li><a href="programas.html">Programas</a></li>
-                    <li><a href="salud.html">Salud y Nutrición</a></li>
-                    <li><a href="horarios.html">Horarios</a></li>
-                    <li><a href="planes.html" class="active">Planes</a></li>
-                </ul>
-            </nav>
+        <div class="container nav-wrapper">
+            <div class="brand-logo">OLIMPIC<span>GIM</span></div>
+            <ul class="main-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="instalaciones.html">Instalaciones</a></li>
+                <li><a href="programas.html">Programas</a></li>
+                <li><a href="salud.html">Salud y Nutrición</a></li>
+                <li><a href="horarios.html">Horarios</a></li>
+                <li><a href="planes.html" class="active">Planes</a></li>
+            </ul>
         </div>
     </header>
 
     <main>
-        <section>
-            <h2>Planes de Membresía</h2>
-            <p>Elige el plan que mejor se adapte a tus objetivos.</p>
-        </section>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05 // SUSCRIPCIONES</span>
+                <h2 class="section-title">Planes de Membresía</h2>
+                <p class="section-desc">Elige el plan que mejor se adapte a ti.</p>
+            </div>
 
-        <section>
-            <h3>Nuestros planes</h3>
-            <ul>
-                <li><strong>Pase Base</strong> - 29€/mes</li>
-                <li><strong>Elite Performance</strong> - 45€/mes</li>
-                <li><strong>VIP Black Athlete</strong> - 89€/mes</li>
-            </ul>
-        </section>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Pase Base</h3>
+                    <p style="font-size: 28px; margin: 10px 0;">29€ <span style="font-size:14px;">/mes</span></p>
+                    <p>Acceso a zonas de musculación y cardio.</p>
+                </div>
+                <div class="card" style="border-color: var(--primary);">
+                    <h3>Elite Performance</h3>
+                    <p style="font-size: 28px; margin: 10px 0;">45€ <span style="font-size:14px;">/mes</span></p>
+                    <p>Todo incluido + clases dirigidas e InBody mensual.</p>
+                </div>
+                <div class="card">
+                    <h3>VIP Black Athlete</h3>
+                    <p style="font-size: 28px; margin: 10px 0;">89€ <span style="font-size:14px;">/mes</span></p>
+                    <p>Plan Elite + entrenamiento personal y nutrición.</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p><strong>OLIMPIC GYM S.A.</strong> - Av. De la Competencia Profesional, Nº 105, Zaragoza</p>
-        <p>© 2026 Olimpic Gym. Todos los derechos reservados.</p>
+        <div class="container footer-wrapper">
+            <div class="footer-info">
+                <p><strong>OLIMPIC GYM S.A.</strong> // Av. De la Competencia Profesional, Nº 105, Zaragoza</p>
+                <p style="font-size: 12px; margin-top: 5px; color: #555;">Horario: L-V: 06:00 - 23:00 | S: 08:00 - 20:00 | D: 09:00 - 14:00</p>
+            </div>
+            <div class="footer-copy">
+                <p style="font-size: 13px; color: var(--text-muted);">&copy; 2026 Olimpic Gym. Todos los derechos reservados.</p>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
